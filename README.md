@@ -17,41 +17,48 @@ This repository contains the code for a Lane Keeping Assistance system that uses
 It's recommended to maintain a clean and isolated Python environment for your "Lane Keeping Assistance" project. Follow the steps below:
 
 #### Navigate to the Project Directory
-```bash
+```
 cd Lane-keeping-assistance/
+ ```
 
-##Create a Virtual Environment
-```bash
+### Create a Virtual Environment
+```
 python -m venv venv
+```
 Activate the Virtual Environment
-On Windows:
+### On Windows:
 
+```
 cmd
-venv\Scripts\activate
-On macOS and Linux:
+venv\Scripts\activate 
+```
+###On macOS and Linux:
 
-```bash
+```
 source venv/bin/activate
-Install Project Dependencies from requirements.txt
-```bash
+```
+### Install Project Dependencies from requirements.txt
 
-pip install -r requirements.txt
-Running the Project
+```
+pip install -r requirements.txt 
+```
+### Running the Project
 This project simplifies the process of lane detection to just two Python scripts:
 
-left_laneDetection.py
-right_laneDetection.py
+- left_laneDetection.py
+- right_laneDetection.py
 And a video file:
 
-drive.mp4
+- drive.mp4
 Ensure that both Python scripts and the video file are in the same directory.
 
-Cloning the Repository
+###Cloning the Repository
 To clone this repository to your desired path, use the following command:
 
-```bash
+```
 git clone https://github.com/imdiora/Lane-keeping-assistance-
-Execution
+``` 
+###Execution
 After setting up your environment and cloning the repository, make sure that the Python scripts (left_laneDetection.py & right_laneDetection.py) and the video file (drive.mp4) are placed in the same directory. Run the scripts to start the lane detection process on the video file.
 
 ## How the Code Works
