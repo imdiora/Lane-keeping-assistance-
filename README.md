@@ -7,51 +7,6 @@ This repository contains the code for a Lane Keeping Assistant (LKA) system. The
 [![Alt text](https://img.youtube.com/vi/foQegbsFQmo/0.jpg)](https://www.youtube.com/watch?v=foQegbsFQmo)
 
 
-
-## Get This Project Up and Running
-
-### Setting up a Python Virtual Environment for "LKAS-LANE KEEPING ASSISTANT"
-To maintain a clean and isolated Python environment for your "LKAS Project" project, follow these steps in your terminal:
-
-#### Navigate to the Project Directory
-```sh
-cd Lane-keeping-assiatnce/
-
-Create a Virtual Environment
-sh
-Copy
-python -m venv venv
-Activate the Virtual Environment
-On Windows:
-
-cmd
-Copy
-.\venv\Scripts\activate
-On macOS and Linux:
-
-sh
-Copy
-source venv/bin/activate
-Install Project Dependencies from requirements.txt
-sh
-Copy
-pip install -r requirements.txt
-Running the Project
-This project follows a simplistic approach in terms of how to run it. Only 2 files are needed to get it running:
-
-laneDetection.py: The Python script that performs image processing and lane detection.
-test1.mp4: The video file on which image processing is performed.
-Ensure that the files provided are in the same directory.
-
-Cloning the Repository
-Simply clone this repository to your desired path by launching the command prompt and running:
-
-sh
-Copy
-git clone https://github.com/imdiora/Lane-keeping-assistance-
-Usage
-After setting up your environment and cloning the repository, ensure that the provided files are in the same directory.
-
 ## How the Code Works
 
 ### 1. Image Processing
