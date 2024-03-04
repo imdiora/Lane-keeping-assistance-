@@ -21,18 +21,18 @@ It's recommended to maintain a clean and isolated Python environment for your "L
 cd Lane-keeping-assistance/
  ```
 
-### Create a Virtual Environment
+## Create a Virtual Environment
 ```
 python -m venv venv
 ```
-Activate the Virtual Environment
+## Activate the Virtual Environment
 ### On Windows:
 
 ```
 cmd
 venv\Scripts\activate 
 ```
-###On macOS and Linux:
+### On macOS and Linux:
 
 ```
 source venv/bin/activate
@@ -52,7 +52,7 @@ And a video file:
 - drive.mp4
 Ensure that both Python scripts and the video file are in the same directory.
 
-###Cloning the Repository
+### Cloning the Repository
 To clone this repository to your desired path, use the following command:
 
 ```
