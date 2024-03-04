@@ -1,7 +1,10 @@
 # Lane Keeping Assistant 
 
 ## Overview
-This repository contains the code for a Lane Keeping Assistant (LKA) system. The LKA system uses computer vision techniques to detect and track road lanes to assist in maintaining the vehicle's position within the lanes.
+This repository contains the code for a Lane Keeping Assistant (LKA) system. The LKA system uses computer vision techniques to detect and track road lanes to assist in maintaining the vehicle's position within the lanes. This project showcases the LEFT and RIGHT Lane separately.
+
+### Demo Video: 
+ 
 
 ## How the Code Works
 
