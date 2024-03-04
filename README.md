@@ -83,7 +83,7 @@ The system must focus on a specific section of the image where lane lines are ex
   
   After determining the dimensions, we implement a function named `region_of_interest`:
 
-    ```python
+    ```
     def region_of_interest(image):
         height = image.shape[0]
         polygons = np.array([
@@ -98,14 +98,14 @@ The system must focus on a specific section of the image where lane lines are ex
 ### 3. Hough Transform
 The Hough Transform is employed to discern prominent lines and to connect the dots of edge points in the image, which allows us to infer the presence of lane lines.
 
-    ```python
+    ```
     lines = cv2.HoughLinesP(cropped_image, 2, np.pi/180, 100, np.array([]), minLineLength=40, maxLineGap=5)
     ```
 
 ### 4. Coordinates and Display Lines
 The final step in the image processing stage is to calculate the coordinates of the detected lines and display them on the image. This is accomplished with a function called `display_lines`:
 
-    ```python
+    ```
     def display_lines(image, lines):
         # Logic for drawing lines on the image will be implemented here.
         pass
